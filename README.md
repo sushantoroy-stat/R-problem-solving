@@ -20,8 +20,11 @@ It is useful when working with **vectors and simple grouped operations**.
 tapply(X, INDEX, FUN)
 ```
 ✍🏼Parameters
+
 X → Numeric vector on which the function will be applied
+
 INDEX → Grouping variable (factor or vector)
+
 FUN → Function to apply (mean, sum, max, etc.)
 
 
@@ -33,16 +36,22 @@ It is commonly used when performing statistical summaries such as mean, sum, or 
 ✍🏼Parameters
 response → Variable to analyze
 group → Grouping variable
+
 data → Data frame containing the variables
+
 FUN → Function to apply (mean, sum, etc.)
 
 # 3. dplyr Package
 
 dplyr is a popular R package designed for data manipulation and transformation.
 It provides a clean and readable syntax for performing data analysis tasks.
-✍🏼Common functions in dplyr include:
+✍🏼Common functions in dplyr include: <br>
 filter() → Select rows based on conditions
+
 select() → Choose specific columns
+
 mutate() → Create new variables
+
 group_by() → Group data by variables
+
 summarise() → Generate summary statistics
